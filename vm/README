@@ -1,0 +1,40 @@
+# DAW2 M08UF1 2022-2023 Marc Ramirez Rubio & Pau Cardenas Lopez
+# Correu: grup01gp2asixmrrpcl@gmail.com
+
+## Requisits
+
+Requereix tenir instal·lat previament:
+1. Git https://git-scm.com/
+2 Virtualbox https://www.virtualbox.org/
+3. Vagrant https://www.vagrantup.com/
+
+## Pasos a seguir
+
+1. Com utilitzar el fitxer Vagrantfile:
+
+	vagrant up ---> Iniciar la màquina virtual
+	vagrant halt ---> Aturar la màquina virtual
+	vagrant destroy ---> Esborrar la màquina virtual
+
+2. Com afegir nou programari o canviar paràmetres de la màquina:
+
+	config.vm.synced_folder "/var/www/html", "D:\Documentos Escritorio\M14-GP2-DEVOPS\gp2f4\codi"
+
+  config.vm.network "public_network"
+  config.vm.network "forwarded_port", guest 80, host
+  config.vm.network "forwarded_port", guest 443, host 8443
+  
+  config.vm.provision "shell", inline <<-SHELL
+    sudo apt-get update -y
+    sudo apt-get upgrade -y
+    sudo apt-get install -y net-tools
+    sudo apt-get install -y apache2 apache2-doc
+    sudo apt-get install -y libapache2-mod-php
+    sudo apt-get install -y php7.4
+    apt-get install -y mariadb-server mariadb-client
+		apt-get install -y php7.4-mysql
+  SHELL
+
+3. lloc a on es troben els fitxers amb els codis php del projecte:
+
+	--> /var/www/html (O el directori configurat)
