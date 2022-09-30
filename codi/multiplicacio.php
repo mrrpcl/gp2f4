@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>EXECUCIÓ DE LA RESTA DE 2 OPERANDS</title>
+	<title>EXECUCIÓ DE LA MULTIPLICACIO DE 2 OPERANDS</title>
 </head>
 	<body>
 		<p><u>RESULTAT DE L'OPERACIÓ RESTA DEL 2 OPERANDS INTRODUITS AL FORMULARI</u></p>
@@ -22,9 +22,9 @@
 			}
 			#
 			#Obtencio del resultat i mostrant el resultat
-			$resultat = $operand1 - $operand2;
-			echo "<p>El resultat de $operand1 - $operand2 és igual a $resultat</p>";			
+			$resultat = $operand1 * $operand2;
+			echo "<p>El resultat de $operand1 x $operand2 és igual a $resultat</p>";			
 		?>
-		<a href="resta.html">Torna a la pàgina anterior</a>
+		<a href="multiplicacio.html">Torna a la pàgina anterior</a>
 	</body>
 </html>
