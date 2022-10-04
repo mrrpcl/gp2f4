@@ -8,8 +8,9 @@
 	</head>
 	<body>
 		<p><b>CALCUALDORA ARITMÈTICA</b></p>
-		<a href="suma.html">a) Suma de 2 operands</a>
-		<a href="resta.html">b) Resta de 2 operands</a>
-		<a href="multiplicacio.html">c) Multiplicacio de 2 operands</a>
+		<a href="suma.html">a) Suma de 2 operands</a><br>
+		<a href="resta.html">b) Resta de 2 operands</a><br>
+		<a href="multiplicacio.html">c) Multiplicacio de 2 operands</a><br>
+		<a href="divisio.html">c) Divisió de 2 operands</a>
 	</body>
 <html>
