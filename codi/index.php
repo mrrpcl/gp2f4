@@ -12,6 +12,6 @@
 		<a href="resta.html">b) Resta de 2 operands</a><br>
 		<a href="multiplicacio.html">c) Multiplicacio de 2 operands</a><br>
 		<a href="divisio.html">d) Divisió de 2 operands</a><br>
-		<a href="ip.html">e) Càlcul adreça de subxarxa</a>
+		<a href="ip.html">e) Càlcul adreça IPv4 de subxarxa</a>
 	</body>
 <html>
