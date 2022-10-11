@@ -29,7 +29,7 @@
 			#Obtencio del resultat i mostrant el resultat
 			echo "<p>La IP de l'equip es: $operand1/$operand2</p>";
 			
-			echo "<p>La IP de subxarxa es: $network</p>";
+			echo "<p>La IP de subxarxa es: $network/$operand2</p>";
 
 			echo "<p>La IP de broadcast es: $broadcastAddress</p>";
 
